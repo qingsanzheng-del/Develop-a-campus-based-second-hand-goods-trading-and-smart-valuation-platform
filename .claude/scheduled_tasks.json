@@ -1,0 +1,15 @@
+{
+  "tasks": [
+    {
+      "id": "a38c1e11",
+      "cron": "35 22 * * *",
+      "prompt": "【每日开发日志】请更新校园二手交易平台的开发日志：读取 campus-market/开发日志/ 目录，为今天创建或更新 YYYY-MM-DD.md 文件（参考 _模板.md），记录「今日完成」与「待办事项」。参考 campus-market/docs/06-执行步骤.md 的里程碑进度和当前 TODO 状态。若当天无开发活动，也写一条简短说明。",
+      "createdAt": 1787315342159,
+      "lastFiredAt": 1787324700878,
+      "recurring": true,
+      "createdBySessionId": "5695cf22-8eb2-4bc6-953a-a36f06651f64",
+      "createdByPid": 32176,
+      "createdByProcStart": "134318422747608081"
+    }
+  ]
+}
