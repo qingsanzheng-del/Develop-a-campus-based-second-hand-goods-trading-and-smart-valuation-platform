@@ -2,6 +2,7 @@
 import { onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import NavBar from './components/NavBar.vue'
+import SideDecor from './components/SideDecor.vue'
 import { useAuthStore } from './stores/auth'
 
 const router = useRouter()
@@ -42,6 +43,7 @@ onMounted(() => {
   </svg>
 
   <div class="min-h-full flex flex-col">
+    <SideDecor />
     <NavBar />
     <main class="flex-1">
       <router-view />

@@ -262,6 +262,12 @@ a {
   line-height: 1.3;
 }
 
+/* 竖排文字（侧边海报 / 旧招牌） */
+.writing-vertical {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
 /* 滚动条粗粝化 */
 ::-webkit-scrollbar {
   width: 12px;
